@@ -1,3 +1,9 @@
+---
+title: Leetcode Questions
+description: Personal archive for answered, unanswered, and failed leetcode and interview questions that I have attempted or want to attempt.
+og:image: https://images.unsplash.com/photo-1665446302709-d94a4c212b99?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80
+---
+
 # Leetcode Questions
 
 Personal archive for answered, unanswered, and failed leetcode and interview questions that I have attempted or want to attempt.
