@@ -1,3 +1,10 @@
+---
+title: DevOps Roadmap 2022.
+og:image: https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80
+date: 2023-10-14
+tags: Education, DevOps, Git, Linux
+---
+
 # DevOps Roadmap 2022.
 
 This is a step by step guide on how to become a DevOps engineer, with links to relevant learning resources.

@@ -1,3 +1,10 @@
+---
+title: Droid-ify
+og:image: https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80
+date: 2023-5-2
+tags: Android, App
+---
+
 <div align="center">
 
 <img width="" src="app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" alt="Droid-ify" align="center">
