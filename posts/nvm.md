@@ -1,3 +1,11 @@
+---
+title: NVM
+description: Quisque at magna posuere, auctor tellus sed, mollis erat. Pellentesque posuere non nulla sed dictum. Suspendisse ultricies massa enim, pulvinar luctus orci porttitor sed. Integer commodo lectus sed nunc hendrerit imperdiet. Integer interdum eu nibh sed sollicitudin. Donec in quam in ante consequat bibendum. Proin mattis leo et risus auctor, eget semper leo lacinia. Duis sem justo, vulputate quis tellus a, dapibus euismod tellus.
+og:image: https://images.unsplash.com/photo-1706349067986-433baf49d558
+date: 2022-11-26
+tags: Test
+---
+
 <a href="https://github.com/nvm-sh/logos"><img alt="nvm project logo" src="https://raw.githubusercontent.com/nvm-sh/logos/HEAD/nvm-logo-color.svg" height="50" /></a>
 
 # Node Version Manager [![Build Status](https://travis-ci.org/nvm-sh/nvm.svg?branch=master)][3] [![nvm version](https://img.shields.io/badge/version-v0.39.2-yellow.svg)][4] [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/684/badge)](https://bestpractices.coreinfrastructure.org/projects/684)

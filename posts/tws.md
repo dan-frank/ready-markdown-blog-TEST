@@ -1,3 +1,11 @@
+---
+title: TWS WordPress Theme
+description: Quisque at magna posuere, auctor tellus sed, mollis erat. Pellentesque posuere non nulla sed dictum. Suspendisse ultricies massa enim, pulvinar luctus orci porttitor sed. Integer commodo lectus sed nunc hendrerit imperdiet. Integer interdum eu nibh sed sollicitudin. Donec in quam in ante consequat bibendum. Proin mattis leo et risus auctor, eget semper leo lacinia. Duis sem justo, vulputate quis tellus a, dapibus euismod tellus.
+og:image: https://images.unsplash.com/photo-1706425278305-b9440b5fcd1f
+date: 2022-11-12
+tags: TWS, Test
+---
+
 # TWS WordPress Theme
 
 The starting point for TWS theme development.
