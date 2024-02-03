@@ -1,3 +1,11 @@
+---
+title: Lama Cleaner
+description: Quisque at magna posuere, auctor tellus sed, mollis erat. Pellentesque posuere non nulla sed dictum. Suspendisse ultricies massa enim, pulvinar luctus orci porttitor sed. Integer commodo lectus sed nunc hendrerit imperdiet. Integer interdum eu nibh sed sollicitudin. Donec in quam in ante consequat bibendum. Proin mattis leo et risus auctor, eget semper leo lacinia. Duis sem justo, vulputate quis tellus a, dapibus euismod tellus.
+og:image: https://images.unsplash.com/photo-1682685797742-42c9987a2c34
+date: 2022-30-01
+tags: Test
+---
+
 <h1 align="center">Lama Cleaner</h1>
 <p align="center">A free and open-source inpainting tool powered by SOTA AI model.</p>
 

@@ -1,5 +1,6 @@
 ---
 title: Coding Interview University
+description: Quisque at magna posuere, auctor tellus sed, mollis erat. Pellentesque posuere non nulla sed dictum. Suspendisse ultricies massa enim, pulvinar luctus orci porttitor sed. Integer commodo lectus sed nunc hendrerit imperdiet. Integer interdum eu nibh sed sollicitudin. Donec in quam in ante consequat bibendum. Proin mattis leo et risus auctor, eget semper leo lacinia. Duis sem justo, vulputate quis tellus a, dapibus euismod tellus.
 og:image: https://images.unsplash.com/photo-1459499362902-55a20553e082?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80
 date: 2023-10-14
 tags: Interview, Education, Java, C, C++, Python

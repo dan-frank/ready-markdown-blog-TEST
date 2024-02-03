@@ -1,3 +1,11 @@
+---
+title: A Guide for Machine Learning Technical Interviews (FAANG Companies)
+description: Quisque at magna posuere, auctor tellus sed, mollis erat. Pellentesque posuere non nulla sed dictum. Suspendisse ultricies massa enim, pulvinar luctus orci porttitor sed. Integer commodo lectus sed nunc hendrerit imperdiet. Integer interdum eu nibh sed sollicitudin. Donec in quam in ante consequat bibendum. Proin mattis leo et risus auctor, eget semper leo lacinia. Duis sem justo, vulputate quis tellus a, dapibus euismod tellus.
+og:image: https://images.unsplash.com/photo-1706641931728-e4f638619352
+date: 2022-30-05
+tags: Test
+---
+
 <!-- [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Machine%20Learning%20Interview%20Guide&url=https://github.com/alirezadir/machine-learning-interview-enlightener&via=alirezadira&hashtags=artificialintelligence,machinelearning,interviews,design)
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40alirezadira)](https://twitter.com/alirezadira)
 
