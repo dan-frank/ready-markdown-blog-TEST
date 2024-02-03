@@ -30,3 +30,4 @@ jobs:
         uses: dan-frank/ready-markdown-blog@main
         with:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          URL: 'https://dan-frank.github.io/ready-markdown-blog-TEST'
