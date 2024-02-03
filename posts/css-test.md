@@ -53,6 +53,10 @@ The paragraph starts here...
 0. Item 2
 910. Item 3
 
+- [ ] Checklist item #1
+- [x] Checklist item #2
+- [ ] Checklist item #3
+
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fringilla velit sit amet lectus tincidunt, quis suscipit tortor maximus. Vestibulum facilisis sit amet tortor sed vestibulum.
 
   Sed nec egestas leo. Nam tristique tincidunt venenatis. Vestibulum vel justo tincidunt, aliquet sapien vitae, vestibulum ex.
