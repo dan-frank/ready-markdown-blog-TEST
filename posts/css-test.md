@@ -64,7 +64,7 @@ The paragraph starts here...
   Donec commodo, nunc in posuere condimentum, diam est gravida ex, quis varius nisi neque et nunc.
 * Nulla facilisi. Mauris eleifend felis a purus pretium egestas
 
-Check out this code:
+Check out this code (no highlighting):
 
     def fibonacci(number):
         if number <= 1:
@@ -80,8 +80,18 @@ And use the function like this:
 Wow, that was amazing...
 
 ```python
+def printer(text):
+    print(text)
+
 name = 'Scott'
 print 'Hi my name is ' + name
+```
+
+```scala
+def printer(text: String): Unit =
+    println(text)
+
+printer("Hello world")
 ```
 
 ***
