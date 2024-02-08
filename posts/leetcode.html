@@ -1,0 +1,463 @@
+<html>
+    <head>
+      <title>Leetcode Questions - Ready Markdown Blog TEST</title><meta property="og:title" content="Leetcode Questions - Ready Markdown Blog TEST" />
+<meta name="description" content="Personal archive for answered, unanswered, and failed leetcode and interview questions that I have attempted or want to attempt." />
+<meta property="og:description" content="Personal archive for answered, unanswered, and failed leetcode and interview questions that I have attempted or want to attempt." />
+<meta property="og:image" content="https://images.unsplash.com/photo-1665446302709-d94a4c212b99" />
+<meta name="tags" content="Project, Test" />
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      
+      <link rel="icon" type="image/x-icon" href="">
+      <link rel="stylesheet" href="https://dan-frank.github.io/ready-markdown-blog-TEST/main.css" />
+    </head>
+    <body class="min-h-screen flex flex-col bg-white dark:bg-slate-900">
+      <div class="grow-0 shrink-0 relative bg-gray-100 dark:bg-slate-800 border-b-2 border-gray-200 dark:border-slate-900">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6">
+          <div class="flex items-center justify-between py-6 md:justify-start md:space-x-10">
+            <div class="flex justify-start lg:w-0 lg:flex-1">
+              <a href="https://dan-frank.github.io/ready-markdown-blog-TEST">
+                <span class="sr-only">Ready Markdown Blog TEST</span>
+                <img
+                  class="h-8 w-auto sm:h-10"
+                  src="https://avatars.githubusercontent.com/u/1234567?v=4"
+                  alt="Ready Markdown Blog TEST"
+                >
+              </a>
+            </div>
+            <div class="-my-2 -mr-2 md:hidden">
+              <button type="button" class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500" aria-expanded="false">
+                <span class="sr-only">Open menu</span>
+                <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+              </button>
+            </div>
+            <nav class="hidden space-x-10 md:flex md:items-center">
+              <a
+                href="https://dan-frank.github.io/ready-markdown-blog-TEST"
+                class="text-base font-medium text-gray-500 hover:text-gray-900 dark:text-white dark:hover:text-gray-200"
+              >Home</a>
+              <a
+                href="https://dan-frank.github.io/ready-markdown-blog-TEST/posts.html"
+                class="text-base font-medium text-gray-500 hover:text-gray-900 dark:text-white dark:hover:text-gray-200"
+              >Posts</a>
+              <a
+                href="https://dan-frank.github.io/ready-markdown-blog-TEST/about.html"
+                class="text-base font-medium text-gray-500 hover:text-gray-900 dark:text-white dark:hover:text-gray-200"
+              >About</a>
+              <a
+    href="https://dan-frank.github.io/ready-markdown-blog-TEST/contact.html"
+    class="relative overflow-hidden text-white font-medium transition ease duration-300 bg-blue-600 rounded-md px-10 py-3 hover:bg-blue-800"
+  >
+    <span class="absolute bottom-0 left-0 h-full -ml-2">
+      <svg viewBox="0 0 487 487" class="w-auto h-full opacity-100 object-stretch" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 .3c67 2.1 134.1 4.3 186.3 37 52.2 32.7 89.6 95.8 112.8 150.6 23.2 54.8 32.3 101.4 61.2 149.9 28.9 48.4 77.7 98.8 126.4 149.2H0V.3z" fill="#FFF" fill-rule="nonzero" fill-opacity=".1"></path>
+      </svg>
+    </span>
+    <span class="absolute top-0 right-0 w-12 h-full -mr-3">
+      <svg viewBox="0 0 487 487" class="object-cover w-full h-full" xmlns="http://www.w3.org/2000/svg">
+        <path d="M487 486.7c-66.1-3.6-132.3-7.3-186.3-37s-95.9-85.3-126.2-137.2c-30.4-51.8-49.3-99.9-76.5-151.4C70.9 109.6 35.6 54.8.3 0H487v486.7z" fill="#FFF" fill-rule="nonzero" fill-opacity=".1"></path>
+      </svg>
+    </span>
+    <span class="relative">Contact</span>
+  </a>
+            </nav>
+          </div>
+        </div>
+        <div class="absolute inset-x-0 top-0 origin-top-right transform p-2 transition md:hidden">
+          <div class="divide-y-2 divide-gray-50 rounded-lg bg-white shadow-lg ring-1 ring-black ring-opacity-5">
+            <div class="px-5 pt-5 pb-6">
+              <div class="flex items-center justify-between">
+                <div>
+                  <img
+                    class="h-8 w-auto"
+                    src="https://avatars.githubusercontent.com/u/1234567?v=4"
+                    alt="Ready Markdown Blog TEST"
+                  >
+                </div>
+                <div class="-mr-2">
+                  <button type="button" class="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                    <span class="sr-only">Close menu</span>
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div class="mt-6">
+                <nav class="grid gap-y-8">
+                  <a
+                    href="https://dan-frank.github.io/ready-markdown-blog-TEST"
+                    class="text-base font-medium text-gray-500 hover:text-gray-900 dark:text-white dark:hover:text-gray-200"
+                  >Home</a>
+                  <a
+                    href="https://dan-frank.github.io/ready-markdown-blog-TEST/posts.html"
+                    class="text-base font-medium text-gray-500 hover:text-gray-900 dark:text-white dark:hover:text-gray-200"
+                  >Posts</a>
+                  <a
+                    href="https://dan-frank.github.io/ready-markdown-blog-TEST/about.html"
+                    class="text-base font-medium text-gray-500 hover:text-gray-900 dark:text-white dark:hover:text-gray-200"
+                  >About</a>
+                </nav>
+              </div>
+            </div>
+            <div class="space-y-6 py-6 px-5">
+              <a
+    href="https://dan-frank.github.io/ready-markdown-blog-TEST/contact.html"
+    class="relative overflow-hidden text-white font-medium transition ease duration-300 bg-blue-600 rounded-md px-10 py-3 hover:bg-blue-800"
+  >
+    <span class="absolute bottom-0 left-0 h-full -ml-2">
+      <svg viewBox="0 0 487 487" class="w-auto h-full opacity-100 object-stretch" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 .3c67 2.1 134.1 4.3 186.3 37 52.2 32.7 89.6 95.8 112.8 150.6 23.2 54.8 32.3 101.4 61.2 149.9 28.9 48.4 77.7 98.8 126.4 149.2H0V.3z" fill="#FFF" fill-rule="nonzero" fill-opacity=".1"></path>
+      </svg>
+    </span>
+    <span class="absolute top-0 right-0 w-12 h-full -mr-3">
+      <svg viewBox="0 0 487 487" class="object-cover w-full h-full" xmlns="http://www.w3.org/2000/svg">
+        <path d="M487 486.7c-66.1-3.6-132.3-7.3-186.3-37s-95.9-85.3-126.2-137.2c-30.4-51.8-49.3-99.9-76.5-151.4C70.9 109.6 35.6 54.8.3 0H487v486.7z" fill="#FFF" fill-rule="nonzero" fill-opacity=".1"></path>
+      </svg>
+    </span>
+    <span class="relative">Contact</span>
+  </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <main class="grow-0 shrink-0 mx-auto max-w-7xl w-full flex flex-col gap-12 py-16">
+ <div class="flex flex-col gap-3">
+  <div class="aspect-w-16 aspect-h-8 rounded-xl overflow-hidden">
+      <img src="https://images.unsplash.com/photo-1665446302709-d94a4c212b99" alt="image" class="object-cover" />
+    </div>
+    
+    </div>
+<article
+    class="prose prose-img:rounded-xl prose-p:font-serif prose-li:font-serif prose-a:text-blue-600 prose-a:no-underline dark:prose-invert lg:prose-xl mx-auto"
+>
+    <div class="mb-2 text-normal text-slate-700 dark:text-slate-400"
+    <time datetime="2024-June-02">Sun, 02 June 2024</time>
+  </div> <h1>Leetcode Questions</h1>
+<p>Personal archive for answered, unanswered, and failed leetcode and interview questions that I have attempted or want to attempt.</p>
+<h2>Usage</h2>
+<p>The best method to use this archive is with the <a href="#archive">archive section</a>.
+Here you can find quick links to my solutions and to the problem itself.
+I have included the name of the Leetcode problem so you can easily find it with a search in your browser of choice.</p>
+<p>If you hate documentation, you can also navigate to <a href="src/main/scala"><code>src/main/scala</code></a> and find all of the solutions.</p>
+<p>I have written test cases for (most of) the solutions, and these can be found under <a href="src/test/scala/"><code>src/test/scala</code></a>.</p>
+<p>The majority of solutions have been resolved with Scala, managed and tested with <code>sbt</code> (which also handles Java solutions).
+However, a few other languages can be found that cannot be handled by <code>sbt</code>; these will need to be run seperately, likely inside the Leetcode editor.</p>
+<p>As the archive has been setup with <code>sbt</code>, you can use <code>sbt</code> commands.
+Compile the code with <code>sbt compile</code>, test with <code>sbt test</code>, and <code>sbt console</code> will start a Scala 3 REPL.</p>
+<p>Due to the nature of this project there are no main methods for running the code, and as such <code>sbt run</code> won't produce any meaningful results.
+If you want to extend this project yourself, I recommend introducing and running more test cases.</p>
+<h2>Archive Key</h2>
+<table>
+<thead>
+<tr>
+<th>:old_key:</th>
+<th>Description</th>
+<th>Completed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>:white_check_mark:</td>
+<td>Completed</td>
+<td>20</td>
+</tr>
+<tr>
+<td>:construction:</td>
+<td>In Progress</td>
+<td>1</td>
+</tr>
+<tr>
+<td>:x:</td>
+<td>Failed</td>
+<td>0</td>
+</tr>
+<tr>
+<td>:green_circle:</td>
+<td>Easy Question</td>
+<td>17</td>
+</tr>
+<tr>
+<td>:orange_circle:</td>
+<td>Medium Question</td>
+<td>1</td>
+</tr>
+<tr>
+<td>:red_circle:</td>
+<td>Hard Question</td>
+<td>0</td>
+</tr>
+<tr>
+<td>:speaking_head:</td>
+<td>Interview Question</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<h2>Archive</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Status</th>
+<th>Name</th>
+<th>Rigor</th>
+<th>File</th>
+<th>Language</th>
+<th>Attempted</th>
+<th>Completed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://leetcode.com/problems/plus-one/">66</a></td>
+<td>:white_check_mark:</td>
+<td>Plus One</td>
+<td>:green_circle:</td>
+<td><a href="src/main/scala/easy/PlusOneSolution.scala">View</a></td>
+<td>Scala</td>
+<td>2022-10-26</td>
+<td>2022-10-26</td>
+</tr>
+<tr>
+<td><a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/">26</a></td>
+<td>:white_check_mark:</td>
+<td>Remove Duplicates from Sorted Array</td>
+<td>:green_circle:</td>
+<td><a href="src/main/scala/easy/RemoveDuplicatesFromSortedArraySolution.scala">View</a></td>
+<td>Scala</td>
+<td>2022-10-24</td>
+<td>2022-10-25</td>
+</tr>
+<tr>
+<td><a href="https://leetcode.com/problems/merge-two-sorted-lists/">21</a></td>
+<td>:white_check_mark:</td>
+<td>Merge Two Sorted Lists</td>
+<td>:green_circle:</td>
+<td><a href="src/main/scala/easy/MergeTwoSortedListsSolution.scala">View</a></td>
+<td>Scala</td>
+<td>2022-10-24</td>
+<td>2022-10-24</td>
+</tr>
+<tr>
+<td><a href="https://leetcode.com/problems/valid-parentheses/">20</a></td>
+<td>:white_check_mark:</td>
+<td>Valid Parentheses</td>
+<td>:green_circle:</td>
+<td><a href="src/main/scala/easy/ValidParenthesesSolution.scala">View</a></td>
+<td>Scala</td>
+<td>2022-10-23</td>
+<td>2022-10-24</td>
+</tr>
+<tr>
+<td><a href="https://leetcode.com/problems/longest-common-prefix/description/">14</a></td>
+<td>:white_check_mark:</td>
+<td>Longest Common Prefix</td>
+<td>:green_circle:</td>
+<td><a href="src/main/scala/easy/LongestCommonPrefixSolution.scala">View</a></td>
+<td>Scala</td>
+<td>2022-10-23</td>
+<td>2022-10-23</td>
+</tr>
+<tr>
+<td><a href="https://leetcode.com/problems/roman-to-integer/">13</a></td>
+<td>:white_check_mark:</td>
+<td>Roman to Integer</td>
+<td>:green_circle:</td>
+<td><a href="src/main/scala/easy/RomanToIntegerSolution.scala">View</a></td>
+<td>Scala</td>
+<td>2022-10-22</td>
+<td>2022-10-22</td>
+</tr>
+<tr>
+<td><a href="https://leetcode.com/problems/single-number/">136</a></td>
+<td>:white_check_mark:</td>
+<td>Single Number</td>
+<td>:green_circle:</td>
+<td><a href="src/main/scala/easy/SingleNumberSolution.scala">View</a></td>
+<td>Scala</td>
+<td>2022-10-22</td>
+<td>2022-10-22</td>
+</tr>
+<tr>
+<td><a href="https://leetcode.com/problems/two-sum/">1</a></td>
+<td>:white_check_mark:</td>
+<td>Two Sum</td>
+<td>:green_circle:</td>
+<td><a href="src/main/scala/easy/TwoSumSolution.scala">View</a></td>
+<td>Scala</td>
+<td>2022-10-21</td>
+<td>2022-10-21</td>
+</tr>
+<tr>
+<td><a href="src/main/scala/interview/naturalTransformationsBV/questions.pdf">PDF</a></td>
+<td>:white_check_mark:️</td>
+<td>User Notifications</td>
+<td>:speaking_head:</td>
+<td><a href="src/main/scala/interview/naturalTransformationsBV/notifications/NotificationsSolution.scala">View</a></td>
+<td>Scala</td>
+<td>2022-07-10</td>
+<td>2022-07-10</td>
+</tr>
+<tr>
+<td><a href="src/main/scala/interview/naturalTransformationsBV/questions.pdf">PDF</a></td>
+<td>:white_check_mark:️</td>
+<td>Concept of Availability</td>
+<td>:speaking_head:</td>
+<td><a href="src/main/scala/interview/naturalTransformationsBV/timeslots/TimeSlotsSolution.scala">View</a></td>
+<td>Scala</td>
+<td>2022-07-10</td>
+<td>2022-07-10</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td>:white_check_mark:️</td>
+<td>Find Longest Subarray by Sum</td>
+<td>:speaking_head:</td>
+<td><a href="src/main/scala/interview/unknown/findLongestSubarrayBySum.c">View</a></td>
+<td>C</td>
+<td>2021</td>
+<td>2021</td>
+</tr>
+<tr>
+<td><a href="https://leetcode.com/problems/count-good-triplets/">1534</a></td>
+<td>:white_check_mark:</td>
+<td>Count Good Triplets</td>
+<td>:green_circle:</td>
+<td><a href="src/main/scala/easy/CountGoodTriplets.java">View</a></td>
+<td>Java</td>
+<td>2020-12-13</td>
+<td>2020-12-18</td>
+</tr>
+<tr>
+<td><a href="https://leetcode.com/problems/add-two-numbers/">2</a></td>
+<td>:white_check_mark:</td>
+<td>Add Two Numbers</td>
+<td>:orange_circle:</td>
+<td><a href="src/main/scala/medium/AddTwoNumbers.java">View</a></td>
+<td>Java</td>
+<td>2020-12-11</td>
+<td>2020-12-11</td>
+</tr>
+<tr>
+<td><a href="https://leetcode.com/problems/remove-element/">27</a></td>
+<td>:construction:</td>
+<td>Remove Element</td>
+<td>:green_circle:</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://leetcode.com/problems/move-zeroes/">283</a></td>
+<td>:white_check_mark:</td>
+<td>Move Zeroes</td>
+<td>:green_circle:</td>
+<td><a href="src/main/scala/easy/MoveZeroes.java">View</a></td>
+<td>Java</td>
+<td>2020-08-29</td>
+<td>2020-08-29</td>
+</tr>
+<tr>
+<td><a href="https://leetcode.com/problems/power-of-three/">326</a></td>
+<td>:white_check_mark:</td>
+<td>Power of Three</td>
+<td>:green_circle:</td>
+<td><a href="src/main/scala/easy/PowerOfThree.java">View</a></td>
+<td>Java</td>
+<td>2020-03-07</td>
+<td>2020-03-07</td>
+</tr>
+<tr>
+<td><a href="https://leetcode.com/problems/reverse-string/">344</a></td>
+<td>:white_check_mark:</td>
+<td>Reverse String</td>
+<td>:green_circle:</td>
+<td><a href="src/main/scala/easy/ReverseString.java">View</a></td>
+<td>Java</td>
+<td>2020-03-06</td>
+<td>2020-03-06</td>
+</tr>
+<tr>
+<td><a href="https://leetcode.com/problems/intersection-of-two-arrays-ii/">350</a></td>
+<td>:white_check_mark:</td>
+<td>Intersection of Two Arrays II</td>
+<td>:green_circle:</td>
+<td><a href="src/main/scala/easy/IntersectionOfArraysII.java">View</a></td>
+<td>Java</td>
+<td>2020-03-06</td>
+<td>2020-03-06</td>
+</tr>
+<tr>
+<td><a href="https://leetcode.com/problems/sum-of-two-integers/">371</a></td>
+<td>:white_check_mark:️</td>
+<td>Sum of Two Integers</td>
+<td>:green_circle:</td>
+<td><a href="src/main/scala/easy/SumOfTwoIntegersSolution.scala">View</a></td>
+<td>Scala</td>
+<td>2020-03-06</td>
+<td>2022-10-21</td>
+</tr>
+<tr>
+<td><a href="https://leetcode.com/problems/first-unique-character-in-a-string/">387</a></td>
+<td>:white_check_mark:</td>
+<td>First Unique Character in a String</td>
+<td>:green_circle:</td>
+<td><a href="src/main/scala/easy/FirstUniqueCharInString.java">View</a></td>
+<td>Java</td>
+<td>2020-03-05</td>
+<td>2020-03-05</td>
+</tr>
+<tr>
+<td><a href="https://leetcode.com/problems/fizz-buzz/">412</a></td>
+<td>:white_check_mark:</td>
+<td>Fizz Buzz</td>
+<td>:green_circle:</td>
+<td><a href="src/main/scala/easy/Fizzbuzz.java">View</a></td>
+<td>Java</td>
+<td>2020-03-05</td>
+<td>2020-03-05</td>
+</tr>
+</tbody>
+</table>
+<p><em>All questions have been answered by me and me alone; shared to be used for referance.</em></p>
+ <div class="flex flex-row flex-wrap gap-4">
+      <a
+            href="https://dan-frank.github.io/ready-markdown-blog-TEST/tags/project.html"
+            class="inline-block px-2 py-1 rounded-full bg-blue-200 text-blue-700 dark:bg-blue-700 dark:text-blue-200 text-xs font-semibold tracking-wide"
+            >
+            Project
+          </a>
+<a
+            href="https://dan-frank.github.io/ready-markdown-blog-TEST/tags/test.html"
+            class="inline-block px-2 py-1 rounded-full bg-blue-200 text-blue-700 dark:bg-blue-700 dark:text-blue-200 text-xs font-semibold tracking-wide"
+            >
+            Test
+          </a>
+    </div>
+</article>
+    </main>
+      <footer class="grow shrink-0 bg-gray-100 dark:bg-slate-800">
+        <div class="mx-auto max-w-7xl">
+          <div class="flex flex-col gap-2 justify-center text-gray-800 p-4 border-t-2 border-gray-100 md:flex-row md:justify-between dark:justify-center dark:text-gray-100 dark:border-slate-900">
+            <p class="text-slate-500 dark:text-slate-400">
+              &copy; 2024 Copyright: <a class="text-gray-700 dark:text-gray-200" href="https://dan-frank.github.io/ready-markdown-blog-TEST">Ready Markdown Blog TEST</a>
+            </p>
+          </div>
+        </div>
+      </footer>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css" integrity="sha512-Jk4AqjWsdSzSWCSuQTfYRIF84Rq/eV0G2+tu07byYwHcbTGfdmLrHjUSwvzp5HvbiqK4ibmNwdcG49Y5RGYPTg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+      <script>
+        document.addEventListener("DOMContentLoaded", (event) => {
+          document.querySelectorAll("pre code").forEach((el) => {
+            hljs.highlightElement(el);
+          });
+        });
+      </script>
+    </body>
+  </html>
+
