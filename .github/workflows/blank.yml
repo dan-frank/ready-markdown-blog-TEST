@@ -34,4 +34,3 @@ jobs:
           LOGO_URL: "https://avatars.githubusercontent.com/u/1234567?v=4"
           FAVICON_URL: "https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
           BLOG_NAME: "Ready Markdown Blog TEST"
-          COPYRIGHT: "© 2021 Dan Frank"
